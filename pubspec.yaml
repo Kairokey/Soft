@@ -37,6 +37,9 @@ dependencies:
   animated_splash_screen:
   firebase_core:
   firebase_auth:
+  sizer:
+  badges:
+  flutter_rating_bar:
 
 dev_dependencies:
   flutter_test:

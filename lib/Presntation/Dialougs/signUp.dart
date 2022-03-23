@@ -16,8 +16,11 @@ GlobalKey<FormState>Fkey=GlobalKey<FormState>();
 String?email;
 
 String?password;
+
 TextEditingController cEmail=TextEditingController();
 TextEditingController cPass=TextEditingController();
+TextEditingController cPass2=TextEditingController();
+
 
 Auth  auth=Auth();
 
@@ -90,12 +93,13 @@ Auth  auth=Auth();
                 Padding(
                   padding: const EdgeInsets.only(left:10.0,right: 10.0),
                   child: CustomSign(
-                    controller: cPass,
+                    controller: cPass2,
                     name:'Resset Password',hint: 'Enter your Password',secure: true,sufix: true,
                     icons: Icons.lock_outline,
                     onSaved:(v)
                   {
                  setState(() {
+
                    password=v;
                  });
                   }
@@ -106,6 +110,10 @@ Auth  auth=Auth();
                       {
                         return "please Enter Password";
                       }
+                      else if(cPass!=cPass2)
+                        {
+                          return"please Enter correct pass";
+                        }
                     },),
                 ),
 
