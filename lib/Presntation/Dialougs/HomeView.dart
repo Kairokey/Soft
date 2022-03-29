@@ -250,7 +250,7 @@ class HomeView extends StatelessWidget {
                           child: Container(
                             height:50,
                             width: 185,
-                            child: Center(child: Text("View Our Menu",style: TextStyle(fontSize: 15,color: Colors.white,fontWeight: FontWeight.bold))),
+                            child: Center(child: Text("View Cart  ",style: TextStyle(fontSize: 15,color: Colors.white,fontWeight: FontWeight.bold))),
                             decoration: BoxDecoration(
                                 color: Colors.black,
                                 borderRadius: BorderRadius.circular(25)

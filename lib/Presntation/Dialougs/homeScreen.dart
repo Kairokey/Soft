@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
             });
           },
           currentIndex: index,
-          selectedItemColor: Colors.deepPurple,
+          selectedItemColor: Colors.green,
           unselectedItemColor: Colors.grey,
           backgroundColor: Colors.cyanAccent,
           items: [
