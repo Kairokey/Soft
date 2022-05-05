@@ -30,11 +30,11 @@ class AppRoute
       case homeviewPath:
         return MaterialPageRoute(builder: (_)=>HomeView());
       case SettingsPath:
-        return MaterialPageRoute(builder: (_)=>SettingsScreen());
+        return MaterialPageRoute(builder: (_)=> const SettingsScreen());
       case cartPath:
-        return MaterialPageRoute(builder: (_)=>CartScreen());
+        return MaterialPageRoute(builder: (_)=>const MyOrdersScreen());
       case favPath:
-        return MaterialPageRoute(builder: (_)=>FavScreen());
+        return MaterialPageRoute(builder: (_)=>const FavScreen());
 
 
 

@@ -17,8 +17,9 @@ class _HomeScreenState extends State<HomeScreen> {
   int index=0;
   List Views=[
     HomeView(),
-    CartScreen(),FavScreen(),SettingsScreen()
+    MyOrdersScreen(),FavScreen(),SettingsScreen()
   ];
+
   GlobalKey<ScaffoldState> key=GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {
