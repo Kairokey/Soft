@@ -34,7 +34,7 @@ String? password;
                     padding: const EdgeInsets.only(left:10.0,right: 10.0),
                     child:Align(
                         alignment: Alignment.topCenter,
-                        child: Text("Stay signed in with your account to make searching easier",style: TextStyle(fontSize:14),))),
+                        child: Text("Stay signed in with your account to make searching easier",style: TextStyle(fontSize:13),))),
                 Padding(
                   padding: const EdgeInsets.only(left:10.0,right: 10.0),
                   child: CustomSign(name:'Email',hint: 'Enter your Mail',secure: false,sufix: false,icons: Icons.email_outlined,
